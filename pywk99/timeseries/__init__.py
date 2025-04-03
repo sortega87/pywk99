@@ -1,0 +1,3 @@
+from pywk99.timeseries.timeseries import remove_seasonal_cycle
+from pywk99.timeseries.timeseries import remove_linear_trend
+from pywk99.timeseries.timeseries import taper_variable_time_ends

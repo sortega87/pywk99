@@ -1,0 +1,25 @@
+# development
+dev*
+TODO.md
+NOTES.md
+Untitled*
+
+# python
+*.pyc
+
+# vscode
+.vscode
+
+# example data
+/*.nc
+/examples/data*.nc
+/examples/data/*.nc
+
+# python package
+*.egg-info
+
+# Jupyterhub checkpoints
+*.ipynb_checkpoints*
+
+# Mac OS
+.DS_store

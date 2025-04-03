@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pywk99"
+authors = [
+    {name = "MPI-M"},
+]
+dependencies = [
+    "numpy",
+    "xarray",
+    "netcdf4",
+    "matplotlib",
+    "shapely",
+    "cartopy",
+]
+description = "Wheeler and Kiladis Wavenumber-Frequency Analysis in Python"
+requires-python = ">=3.10"
+license = {text = "BSD-3-Clause"}
+classifiers=[
+    "Private :: Do Not Upload",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3.10"
+]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "pywk99.__version__"}
